@@ -1,0 +1,14 @@
+echo "Wellcome! This application Is where It Streams New upcoming Quizes 24/7."
+
+echo :: Check for installation
+if exist notinstalled 
+	echo "CmpQuiz is not installed. Installing..."
+	ren "notinstalled" "installed"
+	cls
+	goto start
+) else (
+	goto start
+)
+
+
+echo "Go to CmpQuiz. Remember, Read policy."
